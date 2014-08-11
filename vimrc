@@ -36,7 +36,7 @@
  NeoBundle 'honza/vim-snippets'
  NeoBundle 'ervandew/supertab'
  NeoBundle 'godlygeek/tabular'
- NeoBundle 'kikijump/tslime.vim'
+ NeoBundle 'jgdavey/tslime.vim'
  NeoBundle 'Townk/vim-autoclose'
  NeoBundle 'jeetsukumaran/vim-buffergator'
  NeoBundle 'asux/vim-capybara'
