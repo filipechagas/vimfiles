@@ -49,6 +49,7 @@
  NeoBundle 'nelstrom/vim-textobj-rubyblock'
  NeoBundle 'jgdavey/vim-turbux'
  NeoBundle 'altercation/vim-colors-solarized'
+ NeoBundle 'Lokaltog/vim-easymotion'
 
  call neobundle#end()
 
