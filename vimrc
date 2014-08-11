@@ -28,15 +28,27 @@
  NeoBundle 'tpope/vim-ragtag'
  NeoBundle 'tpope/vim-rails'
  NeoBundle 'tpope/vim-surround'
+ NeoBundle 'tpope/vim-dispatch'
  NeoBundle 'othree/html5.vim'
  NeoBundle 'MarcWeber/vim-addon-mw-utils'
  NeoBundle 'tomtom/tlib_vim'
  NeoBundle 'garbas/vim-snipmate'
  NeoBundle 'honza/vim-snippets'
-
  NeoBundle 'ervandew/supertab'
  NeoBundle 'godlygeek/tabular'
  NeoBundle 'kikijump/tslime.vim'
+ NeoBundle 'Townk/vim-autoclose'
+ NeoBundle 'jeetsukumaran/vim-buffergator'
+ NeoBundle 'asux/vim-capybara'
+ NeoBundle 'kchmck/vim-coffee-script'
+ NeoBundle 'henrik/vim-indexed-search'
+ NeoBundle 'vim-scripts/jQuery'
+ NeoBundle 'Lokaltog/vim-powerline'
+ NeoBundle 'vim-ruby/vim-ruby'
+ NeoBundle 'kana/vim-textobj-user'
+ NeoBundle 'nelstrom/vim-textobj-rubyblock'
+ NeoBundle 'jgdavey/vim-turbux'
+ NeoBundle 'altercation/vim-colors-solarized'
 
  call neobundle#end()
 
@@ -46,3 +58,4 @@
  " If there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
  NeoBundleCheck
+
