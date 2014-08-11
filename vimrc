@@ -45,6 +45,7 @@
  NeoBundle 'vim-scripts/jQuery'
  NeoBundle 'Lokaltog/vim-powerline'
  NeoBundle 'vim-ruby/vim-ruby'
+ NeoBundle 'vim-scripts/matchit.zip'
  NeoBundle 'kana/vim-textobj-user'
  NeoBundle 'nelstrom/vim-textobj-rubyblock'
  NeoBundle 'jgdavey/vim-turbux'
