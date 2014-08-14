@@ -5,6 +5,12 @@
  set number      "add line numbers
  set showbreak=...
 
+"store lots of :cmdline history
+set history=1000
+
+set showcmd     "show incomplete cmds down the bottom
+set showmode    "show current mode down the bottom
+
 "add some line space for easy reading
 set linespace=4
 
