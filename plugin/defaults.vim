@@ -1,9 +1,9 @@
- syntax on
- set incsearch   "find the next match as we type the search
- set hlsearch    "hilight searches by default
+syntax on
+set incsearch   "find the next match as we type the search
+set hlsearch    "hilight searches by default
 
- set number      "add line numbers
- set showbreak=...
+set relativenumber "add relative line numbers
+set showbreak=...
 
 "store lots of :cmdline history
 set history=1000
