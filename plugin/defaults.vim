@@ -78,3 +78,6 @@ set winwidth=84
 set winheight=5
 set winminheight=5
 set winheight=999
+
+set guifont=Inconsolata-dz\ for\ Powerline:h14
+
