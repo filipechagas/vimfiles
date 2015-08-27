@@ -53,6 +53,10 @@
  NeoBundle 'altercation/vim-colors-solarized'
  NeoBundle 'Lokaltog/vim-easymotion'
  NeoBundle 'vim-scripts/ZoomWin'
+ NeoBundle 'terryma/vim-multiple-cursors'
+ NeoBundle 'elixir-lang/vim-elixir'
+ NeoBundle 'rking/ag.vim'
+ NeoBundle 'wakatime/vim-wakatime'
 
  call neobundle#end()
 
