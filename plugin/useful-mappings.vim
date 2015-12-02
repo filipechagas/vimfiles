@@ -30,10 +30,10 @@ map <leader>v :view %%
 map <leader>gt :tabedit %%
 
 "key mapping for window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " when press { + Enter, the {} block will expand.
 imap {<CR> {}<ESC>i<CR><ESC>O
