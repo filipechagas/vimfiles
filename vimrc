@@ -57,6 +57,7 @@
  NeoBundle 'elixir-lang/vim-elixir'
  NeoBundle 'rking/ag.vim'
  NeoBundle 'wakatime/vim-wakatime'
+ NeoBundle 't9md/vim-ruby-xmpfilter'
 
  call neobundle#end()
 
