@@ -2,7 +2,8 @@ syntax on
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
-set relativenumber "add relative line numbers
+"set relativenumber "add relative line numbers
+set number
 set showbreak=...
 
 "store lots of :cmdline history
@@ -13,6 +14,9 @@ set showmode    "show current mode down the bottom
 
 "add some line space for easy reading
 set linespace=4
+
+"makes backspace to work
+set backspace=2
 
 "disable visual bell
 set visualbell t_vb=
@@ -67,9 +71,9 @@ if has("balloon_eval")
   set noballooneval
 endif
 
-au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
+"au WinLeave * set nocursorline nocursorcolumn
+"au WinEnter * set cursorline cursorcolumn
+"set cursorline cursorcolumn
 
 set winwidth=84
 " We have to have a winheight bigger than we want to set winminheight. But if
