@@ -2,8 +2,12 @@ syntax on
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
+set lazyredraw
+
 "set relativenumber "add relative line numbers
+set relativenumber
 set number
+
 set showbreak=...
 
 "store lots of :cmdline history
@@ -73,7 +77,8 @@ endif
 
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
-"set cursorline cursorcolumn
+set cursorline cursorcolumn
+set colorcolumn=80
 
 set winwidth=84
 " We have to have a winheight bigger than we want to set winminheight. But if
