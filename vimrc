@@ -59,6 +59,7 @@
  NeoBundle 'wakatime/vim-wakatime'
  NeoBundle 't9md/vim-ruby-xmpfilter'
  NeoBundle 'tpope/vim-commentary'
+ NeoBundle 'thoughtbot/vim-rspec'
 
  call neobundle#end()
 
