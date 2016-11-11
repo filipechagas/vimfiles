@@ -60,7 +60,9 @@
  NeoBundle 't9md/vim-ruby-xmpfilter'
  NeoBundle 'tpope/vim-commentary'
  NeoBundle 'thoughtbot/vim-rspec'
- NeoBundle 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+ NeoBundle 'dracula/vim'
+ NeoBundle 'airblade/vim-gitgutter'
+ NeoBundle 'christoomey/vim-tmux-navigator'
 
  call neobundle#end()
 

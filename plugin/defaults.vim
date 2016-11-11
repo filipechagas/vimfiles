@@ -68,7 +68,7 @@ set smartcase
 set ic
 set smartcase
 
-colorscheme solarized
+colorscheme dracula
 set background=dark
 
 if has("balloon_eval")
@@ -78,7 +78,8 @@ endif
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=81
+highlight ColorColumn term=reverse ctermbg=234 guibg=#44475a
 
 set winwidth=84
 " We have to have a winheight bigger than we want to set winminheight. But if
