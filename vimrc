@@ -1,75 +1,63 @@
- if has('vim_starting')
-   set nocompatible               " Be iMproved
+if has('vim_starting')
+  set nocompatible               " Be iMproved
+endif
 
-   " Required:
-   set runtimepath+=~/.vim/bundle/neobundle.vim/
- endif
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
 
- " Required:
- call neobundle#begin(expand('~/.vim/bundle/'))
+" My Bundles here:
+Plug 'ciaranm/securemodelines'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'mileszs/ack.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-git'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-ragtag'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-dispatch'
+Plug 'othree/html5.vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+Plug 'ervandew/supertab'
+Plug 'godlygeek/tabular'
+Plug 'jgdavey/tslime.vim'
+Plug 'Townk/vim-autoclose'
+Plug 'jeetsukumaran/vim-buffergator'
+Plug 'asux/vim-capybara'
+Plug 'kchmck/vim-coffee-script'
+Plug 'henrik/vim-indexed-search'
+Plug 'vim-scripts/jQuery'
+" Plug 'Lokaltog/vim-powerline'
+Plug 'bling/vim-airline'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-scripts/matchit.zip'
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'jgdavey/vim-turbux'
+Plug 'altercation/vim-colors-solarized'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'vim-scripts/ZoomWin'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'elixir-lang/vim-elixir'
+Plug 'rking/ag.vim'
+Plug 'wakatime/vim-wakatime'
+Plug 't9md/vim-ruby-xmpfilter'
+Plug 'tpope/vim-commentary'
+Plug 'thoughtbot/vim-rspec'
+Plug 'dracula/vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'christoomey/vim-tmux-navigator'
 
- " Let NeoBundle manage NeoBundle
- " Required:
- NeoBundleFetch 'Shougo/neobundle.vim'
+" Initialize plugin system
+call plug#end()
 
- " My Bundles here:
- " Refer to |:NeoBundle-examples|.
- " Note: You don't set neobundle setting in .gvimrc!
- NeoBundle 'ciaranm/securemodelines'
- NeoBundle 'scrooloose/nerdcommenter'
- NeoBundle 'scrooloose/nerdtree'
- NeoBundle 'mileszs/ack.vim'
- NeoBundle 'kien/ctrlp.vim'
- NeoBundle 'mattn/emmet-vim'
- NeoBundle 'tpope/vim-endwise'
- NeoBundle 'tpope/vim-fugitive'
- NeoBundle 'tpope/vim-git'
- NeoBundle 'tpope/vim-haml'
- NeoBundle 'tpope/vim-ragtag'
- NeoBundle 'tpope/vim-rails'
- NeoBundle 'tpope/vim-surround'
- NeoBundle 'tpope/vim-dispatch'
- NeoBundle 'othree/html5.vim'
- NeoBundle 'MarcWeber/vim-addon-mw-utils'
- NeoBundle 'tomtom/tlib_vim'
- NeoBundle 'garbas/vim-snipmate'
- NeoBundle 'honza/vim-snippets'
- NeoBundle 'ervandew/supertab'
- NeoBundle 'godlygeek/tabular'
- NeoBundle 'jgdavey/tslime.vim'
- NeoBundle 'Townk/vim-autoclose'
- NeoBundle 'jeetsukumaran/vim-buffergator'
- NeoBundle 'asux/vim-capybara'
- NeoBundle 'kchmck/vim-coffee-script'
- NeoBundle 'henrik/vim-indexed-search'
- NeoBundle 'vim-scripts/jQuery'
- " NeoBundle 'Lokaltog/vim-powerline'
- NeoBundle 'bling/vim-airline'
- NeoBundle 'vim-ruby/vim-ruby'
- NeoBundle 'vim-scripts/matchit.zip'
- NeoBundle 'kana/vim-textobj-user'
- NeoBundle 'nelstrom/vim-textobj-rubyblock'
- NeoBundle 'jgdavey/vim-turbux'
- NeoBundle 'altercation/vim-colors-solarized'
- NeoBundle 'Lokaltog/vim-easymotion'
- NeoBundle 'vim-scripts/ZoomWin'
- NeoBundle 'terryma/vim-multiple-cursors'
- NeoBundle 'elixir-lang/vim-elixir'
- NeoBundle 'rking/ag.vim'
- NeoBundle 'wakatime/vim-wakatime'
- NeoBundle 't9md/vim-ruby-xmpfilter'
- NeoBundle 'tpope/vim-commentary'
- NeoBundle 'thoughtbot/vim-rspec'
- NeoBundle 'dracula/vim'
- NeoBundle 'airblade/vim-gitgutter'
- NeoBundle 'christoomey/vim-tmux-navigator'
-
- call neobundle#end()
-
- " Required:
- filetype plugin indent on
-
- " If there are uninstalled bundles found on startup,
- " this will conveniently prompt you to install them.
- NeoBundleCheck
+" Required:
+filetype plugin indent on
 
