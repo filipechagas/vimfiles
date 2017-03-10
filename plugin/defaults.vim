@@ -64,10 +64,6 @@ filetype indent on
 set ic
 set smartcase
 
-"Activate smartcase
-set ic
-set smartcase
-
 colorscheme dracula
 set background=dark
 
@@ -81,13 +77,13 @@ set cursorline cursorcolumn
 let &colorcolumn=81
 highlight ColorColumn term=reverse ctermbg=234 guibg=#44475a
 
-set winwidth=84
-" We have to have a winheight bigger than we want to set winminheight. But if
-" we set winheight to be huge before winminheight, the winminheight set will
-" fail.
-set winheight=5
-set winminheight=5
-set winheight=999
+"set winwidth=84
+"" We have to have a winheight bigger than we want to set winminheight. But if
+"" we set winheight to be huge before winminheight, the winminheight set will
+"" fail.
+"set winheight=5
+"set winminheight=5
+"set winheight=999
 
 set guifont=Inconsolata-dz\ for\ Powerline:h16
 
