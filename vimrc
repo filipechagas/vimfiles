@@ -54,6 +54,8 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'dracula/vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
