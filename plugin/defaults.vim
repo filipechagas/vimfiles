@@ -64,7 +64,7 @@ filetype indent on
 set ic
 set smartcase
 
-colorscheme dracula
+colorscheme solarized
 set background=dark
 
 if has("balloon_eval")
