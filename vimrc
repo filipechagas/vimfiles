@@ -58,6 +58,7 @@ Plugin 'dracula/vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
 
 call vundle#end()            " required

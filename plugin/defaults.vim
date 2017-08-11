@@ -75,7 +75,7 @@ endif
 "au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
 let &colorcolumn=81
-highlight ColorColumn term=reverse ctermbg=234 guibg=#44475a
+"highlight ColorColumn term=reverse ctermbg=234 guibg=#44475a
 
 "set winwidth=84
 "" We have to have a winheight bigger than we want to set winminheight. But if
