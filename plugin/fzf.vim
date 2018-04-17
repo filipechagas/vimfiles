@@ -9,9 +9,14 @@
 " --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
 " --color: Search color options
 
+let g:fzf_command_prefix = 'Fzf'
+
 command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1, <bang>0)
 
 set grepprg=rg\ --vimgrep
 
+nnoremap <C-p> :FzfFiles<cr>
+
 let g:fzf_files_options =
       \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
+
