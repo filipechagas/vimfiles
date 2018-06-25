@@ -64,8 +64,8 @@ filetype indent on
 set ic
 set smartcase
 
-colorscheme solarized
-set background=dark
+colorscheme dracula
+"set background=dark
 
 if has("balloon_eval")
   set noballooneval
@@ -73,8 +73,8 @@ endif
 
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
-let &colorcolumn=81
+"set cursorline cursorcolumn
+"let &colorcolumn=81
 "highlight ColorColumn term=reverse ctermbg=234 guibg=#44475a
 
 "set winwidth=84
