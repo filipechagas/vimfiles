@@ -64,8 +64,9 @@ filetype indent on
 set ic
 set smartcase
 
-colorscheme solarized
+set termguicolors
 set background=dark
+colorscheme solarized8
 
 if has("balloon_eval")
   set noballooneval
