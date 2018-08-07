@@ -64,9 +64,15 @@ filetype indent on
 set ic
 set smartcase
 
+"ColorScheme
 "set termguicolors
-"set background=dark
-colorscheme flattened_dark
+"colorscheme flattened_dark
+
+let g:enable_bold_font = 1
+let g:enable_italic_font = 1
+let g:hybrid_transparent_background = 1
+set background=dark
+colorscheme hybrid_material
 
 if has("balloon_eval")
   set noballooneval
