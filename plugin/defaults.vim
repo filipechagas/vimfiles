@@ -65,18 +65,47 @@ set ic
 set smartcase
 
 "ColorScheme
+" Solarized
+"set background=dark
+"colorscheme solarized
+
+" Dracula
+colorscheme dracula
+
+" Flattened Dark
 "set termguicolors
 "colorscheme flattened_dark
 
-let g:enable_bold_font = 1
-let g:enable_italic_font = 1
-let g:hybrid_transparent_background = 1
-set background=dark
-colorscheme hybrid_material
+" Hybrid Material
+"let g:enable_bold_font = 1
+"let g:enable_italic_font = 1
+"let g:hybrid_transparent_background = 1
+"set background=dark
+"colorscheme hybrid_reverse
 
-if has("balloon_eval")
-  set noballooneval
-endif
+" Ayu
+"set termguicolors      " enable true colors support
+"let ayucolor="light"  " for light version of theme
+"let ayucolor="mirage" " for mirage version of theme
+"let ayucolor="dark"   " for dark version of theme
+"colorscheme ayu
+
+" Tender
+" If you have vim >=8.0 or Neovim >= 0.1.5
+"if (has("termguicolors"))
+ "set termguicolors
+"endif
+"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"syntax enable
+"colorscheme tender
+
+"if has("balloon_eval")
+  "set noballooneval
+"endif
+
+" Gruvbox
+"set background=dark
+"colorscheme gruvbox
 
 "au WinLeave * set nocursorline nocursorcolumn
 "au WinEnter * set cursorline cursorcolumn
