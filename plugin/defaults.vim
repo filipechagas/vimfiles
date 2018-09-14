@@ -2,6 +2,10 @@ syntax on
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
 
+let &t_8f="\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b="\<Esc>[48;2;%lu;%lu;%lum"
+set termguicolors
+
 set lazyredraw
 
 "set relativenumber "add relative line numbers
@@ -69,19 +73,25 @@ set smartcase
 "set background=dark
 "colorscheme solarized
 
+
+"set background=dark
+"colorscheme solarized8_high
+
 " Dracula
-colorscheme dracula
+"colorscheme dracula
+"syntax on
+"color dracula
 
 " Flattened Dark
 "set termguicolors
 "colorscheme flattened_dark
 
 " Hybrid Material
-"let g:enable_bold_font = 1
-"let g:enable_italic_font = 1
-"let g:hybrid_transparent_background = 1
-"set background=dark
-"colorscheme hybrid_reverse
+let g:enable_bold_font = 1
+let g:enable_italic_font = 1
+let g:hybrid_transparent_background = 1
+set background=dark
+colorscheme hybrid_material
 
 " Ayu
 "set termguicolors      " enable true colors support
