@@ -3,6 +3,8 @@ if has('vim_starting')
 endif
 filetype off                  " required
 
+let mapleader=" "
+
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()

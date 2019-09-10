@@ -10,7 +10,6 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 
-
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 
 "to paste over without overwriting register
