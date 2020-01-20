@@ -78,20 +78,22 @@ set smartcase
 "colorscheme solarized8_high
 
 " Dracula
-colorscheme dracula
-syntax on
-color dracula
+"colorscheme dracula
+"syntax on
+"color dracula
 
 " Flattened Dark
 "set termguicolors
 "colorscheme flattened_dark
 
 " Hybrid Material
-"let g:enable_bold_font = 1
-"let g:enable_italic_font = 1
 "let g:hybrid_transparent_background = 1
-"set background=dark
-"colorscheme hybrid_material
+let g:enable_bold_font = 1
+let g:enable_italic_font = 1
+set background=dark
+colorscheme hybrid_material
+syntax on
+color hybrid_material
 
 " Ayu
 "set termguicolors      " enable true colors support
@@ -131,5 +133,5 @@ color dracula
 "set winminheight=5
 "set winheight=999
 
-set guifont=Inconsolata-dz\ for\ Powerline:h16
+"set guifont=Inconsolata-dz\ for\ Powerline:h16
 
