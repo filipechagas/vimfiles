@@ -69,31 +69,24 @@ set ic
 set smartcase
 
 "ColorScheme
+
 " Solarized
-"set background=dark
-"colorscheme solarized
-
-
-"set background=dark
-"colorscheme solarized8_high
+set background=dark
+colorscheme solarized8_high
 
 " Dracula
 "colorscheme dracula
 "syntax on
 "color dracula
 
-" Flattened Dark
-"set termguicolors
-"colorscheme flattened_dark
-
 " Hybrid Material
 "let g:hybrid_transparent_background = 1
-let g:enable_bold_font = 1
-let g:enable_italic_font = 1
-set background=dark
-colorscheme hybrid_material
-syntax on
-color hybrid_material
+"let g:enable_bold_font = 1
+"let g:enable_italic_font = 1
+"set background=dark
+"colorscheme hybrid_reverse
+"syntax on
+"color hybrid_reverse
 
 " Ayu
 "set termguicolors      " enable true colors support
