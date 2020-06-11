@@ -71,8 +71,8 @@ set smartcase
 "ColorScheme
 
 " Solarized
-set background=dark
-colorscheme solarized8_high
+"set background=dark
+"colorscheme solarized8_high
 
 " Dracula
 "colorscheme dracula
@@ -81,12 +81,12 @@ colorscheme solarized8_high
 
 " Hybrid Material
 "let g:hybrid_transparent_background = 1
-"let g:enable_bold_font = 1
-"let g:enable_italic_font = 1
-"set background=dark
-"colorscheme hybrid_reverse
-"syntax on
-"color hybrid_reverse
+let g:enable_bold_font = 1
+let g:enable_italic_font = 1
+set background=dark
+colorscheme hybrid_material
+syntax on
+color hybrid_material
 
 " Ayu
 "set termguicolors      " enable true colors support
