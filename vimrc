@@ -28,7 +28,7 @@ Plugin 'tpope/vim-haml'
 Plugin 'tpope/vim-ragtag'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-dispatch'
+"Plugin 'tpope/vim-dispatch'
 Plugin 'othree/html5.vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -71,6 +71,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'kristijanhusak/vim-carbon-now-sh'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
