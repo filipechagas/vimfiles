@@ -68,6 +68,8 @@ filetype indent on
 set ic
 set smartcase
 
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
 "ColorScheme
 
 " Solarized
@@ -76,17 +78,17 @@ set smartcase
 
 " Dracula
 "colorscheme dracula
-"syntax on
-"color dracula
+syntax on
+color dracula
 
 " Hybrid Material
 "let g:hybrid_transparent_background = 1
-let g:enable_bold_font = 1
-let g:enable_italic_font = 1
-set background=dark
-colorscheme hybrid_material
-syntax on
-color hybrid_material
+"let g:enable_bold_font = 1
+"let g:enable_italic_font = 1
+"set background=dark
+"colorscheme hybrid_material
+"syntax on
+"color hybrid_material
 
 " Ayu
 "set termguicolors      " enable true colors support
@@ -103,6 +105,7 @@ color hybrid_material
 "let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 "syntax enable
 "colorscheme tender
+"color tender
 
 "if has("balloon_eval")
   "set noballooneval
