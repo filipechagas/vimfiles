@@ -13,6 +13,19 @@ let mapleader=" "
 
 call plug#begin('~/.vim/plugged')
 
+" Javascriot
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
+" GraphQL
+Plug 'jparise/vim-graphql'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " My Bundles here:
 Plug 'ciaranm/securemodelines'
 Plug 'scrooloose/nerdcommenter'
@@ -22,6 +35,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-git'
 Plug 'tpope/vim-haml'
+Plug 'slim-template/vim-slim'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
