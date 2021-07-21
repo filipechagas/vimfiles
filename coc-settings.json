@@ -1,0 +1,111 @@
+{
+  "codeLens.enable": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "coc.preferences.formatOnType": true,
+  "coc.preferences.willSaveHandlerTimeout": 1000,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "c",
+    "go",
+    "python",
+    "markdown",
+    "javascript",
+    "typescript",
+    "react",
+    "json",
+    "jsonc"
+  ],
+  "coc.source.around.firstMatch": false,
+  "coc.source.file.ignoreHidden": false,
+  "diagnostic.format": "%message [%source]",
+  "diagnostic.virtualText": true,
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "signature.target": "echo",
+  "suggest.timeout": 5000,
+  "suggest.defaultSortMethod": "none",
+  "suggest.noselect": false,
+  "suggest.enablePreselect": true,
+  "snippets.ultisnips.enable": false,
+  "snippets.ultisnips.usePythonx": false,
+  "snippets.extends": {
+    "javascriptreact": [
+      "javascript"
+    ],
+    "typescript": [
+      "javascript"
+    ]
+  },
+  "typescript.preferences.noSemicolons": true,
+  "typescript.format.semicolons": "ignore",
+  "typescript.autoClosingTags": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "typescript.preferences.useAliasesForRenames": false,
+  "languageserver": {
+    /* "jedi": { */
+    /*   "command": "jedi-language-server", */
+    /*   "filetypes": [ */
+    /*     "python" */
+    /*   ] */
+    /* }, */
+    /* "ccls": { */
+    /*   "command": "ccls", */
+    /*   "filetypes": [ */
+    /*     "c", */
+    /*     "cpp", */
+    /*     "objc", */
+    /*     "objcpp" */
+    /*   ], */
+    /*   "rootPatterns": [ */
+    /*     ".ccls", */
+    /*     "compile_commands.json", */
+    /*     ".vim/", */
+    /*     ".git/", */
+    /*     ".hg/" */
+    /*   ], */
+    /*   "initializationOptions": { */
+    /*     "cache": { */
+    /*       "directory": "/tmp/ccls" */
+    /*     }, */
+    /*     "highlight": { */
+    /*       "lsRanges": true */
+    /*     } */
+    /*   } */
+    /* }, */
+    /* "go": { */
+    /*   "command": "gopls", */
+    /*   "trace.server": "verbose", */
+    /*   "args": [ */
+    /*     "-remote", */
+    /*     "auto" */
+    /*   ], */
+    /*   "env": { */
+    /*     "TMPDIR": "/tmp" */
+    /*   }, */
+    /*   "rootPatterns": [ */
+    /*     "go.mod", */
+    /*     ".vim/", */
+    /*     ".git/", */
+    /*     ".hg/" */
+    /*   ], */
+    /*   "filetypes": [ */
+    /*     "go" */
+    /*   ], */
+    /*   "initializationOptions": { */
+    /*     "ui.semanticTokens": true, */
+    /*     "usePlaceholders": true */
+    /*   } */
+    /* }, */
+    /* "rust": { */
+    /*   "command": "rust-analyzer", */
+    /*   "trace.server": "verbose", */
+    /*   "filetypes": [ */
+    /*     "rust" */
+    /*   ], */
+    /*   "rootPatterns": [ */
+    /*     "Cargo.toml", */
+    /*     ".git/" */
+    /*   ], */
+    /*   "progressOnInitialization": true */
+    /* } */
+  }
+}
