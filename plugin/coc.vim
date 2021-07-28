@@ -1,5 +1,10 @@
 let g:coc_global_extensions = [
-  \ 'coc-tsserver'
+  \ 'coc-tsserver',
+  \ 'coc-tslint-plugin',
+  \ 'coc-html',
+  \ 'coc-css',
+  \ 'coc-prettier',
+  \ 'coc-json'
   \ ]
 
 nmap <Leader>f [fzf-p]
