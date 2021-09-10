@@ -1,8 +1,9 @@
 let g:coc_global_extensions = [
   \ 'coc-tsserver',
-  \ 'coc-tslint-plugin',
+  \ 'coc-eslint',
   \ 'coc-html',
   \ 'coc-css',
+  \ 'coc-stylelintplus',
   \ 'coc-prettier',
   \ 'coc-json'
   \ ]
@@ -10,6 +11,7 @@ let g:coc_global_extensions = [
 nmap <Leader>f [fzf-p]
 xmap <Leader>f [fzf-p]
 
+command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 nnoremap <silent> [fzf-p]p     :<C-u>CocCommand fzf-preview.FromResources project_mru git<CR>
 nnoremap <silent> [fzf-p]gs    :<C-u>CocCommand fzf-preview.GitStatus<CR>
 nnoremap <silent> [fzf-p]ga    :<C-u>CocCommand fzf-preview.GitActions<CR>
