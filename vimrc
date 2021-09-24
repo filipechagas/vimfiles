@@ -87,6 +87,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'kristijanhusak/vim-carbon-now-sh'
 Plug 'rust-lang/rust.vim'
 
+" Syntax Highlighters
+Plug 'digitaltoad/vim-pug'
+
 " Initialize plugin system
 call plug#end()
 
