@@ -2,6 +2,10 @@ if has("gui_vimr")
   " Here goes some VimR specific settings like
 endif
 
+if exists('g:vscode')
+  " Here goes some VSCode specific settings like
+endif
+
 if has('vim_starting')
   set nocompatible               " Be iMproved
 endif
@@ -13,7 +17,7 @@ let mapleader=" "
 
 call plug#begin('~/.vim/plugged')
 
-" Javascriot
+" Javascript
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'yuezk/vim-js'
@@ -26,7 +30,6 @@ Plug 'jparise/vim-graphql'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" My Bundles here:
 Plug 'ciaranm/securemodelines'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
