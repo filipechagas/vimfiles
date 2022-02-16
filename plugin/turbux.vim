@@ -15,7 +15,7 @@ function! TurbuxJestRun()
   endif
 
 
-  return VimuxRunCommand('yarn test:' . test_type . current_file)
+  return VimuxRunCommand('yarn test:' . test_type . current_file . ' --silent')
 endfunction
 
 map <leader>j :call TurbuxJestRun()<cr>
