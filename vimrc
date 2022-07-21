@@ -18,12 +18,12 @@ let mapleader=" "
 call plug#begin('~/.vim/plugged')
 
 " Javascript
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+"Plug 'pangloss/vim-javascript'
+"Plug 'leafgarland/typescript-vim'
+"Plug 'yuezk/vim-js'
+"Plug 'maxmellon/vim-jsx-pretty'
+"Plug 'leafgarland/typescript-vim'
+"Plug 'peitalin/vim-jsx-typescript'
 
 " GraphQL
 Plug 'jparise/vim-graphql'
@@ -91,7 +91,8 @@ Plug 'kristijanhusak/vim-carbon-now-sh'
 Plug 'rust-lang/rust.vim'
 
 " Syntax Highlighters
-Plug 'digitaltoad/vim-pug'
+"Plug 'digitaltoad/vim-pug'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Initialize plugin system
 call plug#end()
