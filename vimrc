@@ -2,10 +2,6 @@ if has("gui_vimr")
   " Here goes some VimR specific settings like
 endif
 
-if exists('g:vscode')
-  " Here goes some VSCode specific settings like
-endif
-
 if has('vim_starting')
   set nocompatible               " Be iMproved
 endif
@@ -26,9 +22,11 @@ call plug#begin('~/.vim/plugged')
 "Plug 'peitalin/vim-jsx-typescript'
 
 " GraphQL
-Plug 'jparise/vim-graphql'
+" Plug 'jparise/vim-graphql'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+if !exists('g:vscode')
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+endif
 
 Plug 'ciaranm/securemodelines'
 Plug 'scrooloose/nerdcommenter'
